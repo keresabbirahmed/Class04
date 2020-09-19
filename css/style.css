@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Noto Sans JP', sans-serif;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+.blog-section{
+    padding: 100px 0;
+}
+.container{
+    width: 1400px;
+    margin: auto;
+    overflow: hidden;
+}
+.col{
+    width: 25%;
+    float: left;
+    padding: 15px;
+}
+article{
+    /* background-color: aliceblue; */
+    box-shadow:  5px 5px 10px #f0f0f0, 
+             -5px -5px 10px #ffffff;
+             border-radius: 10px;
+             overflow: hidden;
+             transition-duration: 0.3s;
+}
+.container:hover article{
+
+    box-shadow:  0 0 0 #f0f0f0, 0 0 0 #ffffff;
+    opacity: 0.6;
+
+}
+.container:hover article:hover{
+
+	box-shadow:  5px 5px 10px #f0f0f0, 
+             -5px -5px 10px #ffffff;
+             opacity: 1;
+}
+
+article img{
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+article h2{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 10px 0;
+    color: #333;
+}
+article h2 strong{}
+article p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 10px;
+}
+.readmore{
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #333;
+    padding: 8px 30px;
+    display: inline-block;
+    border-radius: 30px;
+    transition-duration: 0.3s;
+}
+
+.readmore:hover{
+	color: #fff;
+	background-color: #333; 
+}
+
+.padding{
+	padding: 15px;
+}
